@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Technical SEO Services Lahore | Mahboob Sultan</title>
+
+    <meta name="description" content="Professional Technical SEO Services in Lahore, Pakistan. Improve website crawlability, indexing, Core Web Vitals, site speed, mobile performance, structured data and technical SEO health with Mahboob Sultan.">
+
+    <meta name="keywords" content="Technical SEO Services Lahore, Technical SEO Lahore, Technical SEO Expert Lahore, SEO Expert Lahore, Website SEO Audit Lahore, Technical SEO Pakistan">
+
+    <meta name="author" content="Mahboob Sultan">
+
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Technical SEO Services Lahore | Mahboob Sultan">
+    <meta property="og:description" content="Technical SEO services in Lahore focused on crawlability, indexing, website performance, mobile optimization and technical website health.">
+    <meta property="og:type" content="website">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #060B19;
+            color: #ffffff;
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* =========================
+           NAVBAR
+        ========================= */
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(6, 11, 25, 0.94);
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(124, 58, 237, 0.18);
+        }
+
+        .nav-container {
+            min-height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: #A78BFA;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .nav-links a {
+            color: #AEB7D0;
+            font-size: 15px;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #A78BFA;
+        }
+
+        .nav-btn {
+            padding: 11px 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #7C3AED, #4F8CFF);
+            color: #ffffff !important;
+            box-shadow: 0 10px 30px rgba(79, 140, 255, 0.16);
+        }
+
+        .menu-btn {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        /* =========================
+           HERO
+        ========================= */
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding: 105px 0 90px;
+            background:
+                radial-gradient(
+                    circle at 15% 25%,
+                    rgba(124, 58, 237, 0.18),
+                    transparent 32%
+                ),
+                radial-gradient(
+                    circle at 85% 20%,
+                    rgba(79, 140, 255, 0.14),
+                    transparent 32%
+                ),
+                #060B19;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 50px;
+            border: 1px solid rgba(167, 139, 250, 0.35);
+            background: rgba(124, 58, 237, 0.08);
+            color: #C4B5FD;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 6vw, 68px);
+            line-height: 1.04;
+            letter-spacing: -2.5px;
+            max-width: 760px;
+        }
+
+        .gradient-text {
+            display: block;
+            background: linear-gradient(
+                90deg,
+                #A78BFA,
+                #4F8CFF
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-text {
+            max-width: 700px;
+            color: #AEB7D0;
+            font-size: 18px;
+            margin-top: 25px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 32px;
+        }
+
+        .primary-btn {
+            display: inline-block;
+            padding: 14px 25px;
+            border-radius: 12px;
+            background: linear-gradient(
+                135deg,
+                #7C3AED,
+                #4F8CFF
+            );
+            font-weight: 700;
+            transition: 0.3s ease;
+        }
+
+        .primary-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(124, 58, 237, 0.25);
+        }
+
+        .secondary-btn {
+            display: inline-block;
+            padding: 14px 25px;
+            border-radius: 12px;
+            border: 1px solid rgba(167, 139, 250, 0.28);
+            color: #C4B5FD;
+            background: rgba(13, 20, 48, 0.55);
+            transition: 0.3s ease;
+        }
+
+        .secondary-btn:hover {
+            background: #ffffff;
+            color: #171B35;
+            border-color: #ffffff;
+        }
+
+        /* =========================
+           SEO DASHBOARD VISUAL
+        ========================= */
+
+        .seo-visual {
+            position: relative;
+            padding: 25px;
+            border-radius: 28px;
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(13, 20, 48, 0.95),
+                    rgba(10, 16, 36, 0.88)
+                );
+            border: 1px solid rgba(124, 58, 237, 0.25);
+            box-shadow:
+                0 25px 80px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255,255,255,0.03);
+        }
+
+        .visual-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .visual-title {
+            color: #D9DDF0;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .status {
+            font-size: 12px;
+            color: #A78BFA;
+            padding: 5px 10px;
+            border-radius: 50px;
+            background: rgba(124, 58, 237, 0.12);
+        }
+
+        .score-box {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            border-radius: 18px;
+            background: rgba(6, 11, 25, 0.7);
+            border: 1px solid rgba(79, 140, 255, 0.15);
+        }
+
+        .score {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 7px solid #7C3AED;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 800;
+        }
+
+        .score-text h3 {
+            font-size: 18px;
+            margin-bottom: 4px;
+        }
+
+        .score-text p {
+            color: #8993AE;
+            font-size: 13px;
+        }
+
+        .metrics {
+            margin-top: 18px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .metric {
+            padding: 16px;
+            border-radius: 15px;
+            background: rgba(6, 11, 25, 0.65);
+            border: 1px solid rgba(124, 58, 237, 0.12);
+        }
+
+        .metric strong {
+            display: block;
+            color: #ffffff;
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+
+        .metric span {
+            color: #8D97B1;
+            font-size: 12px;
+        }
+
+        .chart {
+            margin-top: 18px;
+            height: 110px;
+            border-radius: 15px;
+            background:
+                linear-gradient(
+                    to bottom,
+                    rgba(167, 139, 250, 0.07) 1px,
+                    transparent 1px
+                );
+            background-size: 100% 27px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chart-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 55%;
+            height: 3px;
+            background: linear-gradient(
+                90deg,
+                #7C3AED,
+                #4F8CFF
+            );
+            transform: rotate(-7deg);
+            transform-origin: center;
+            box-shadow: 0 0 15px rgba(124, 58, 237, 0.5);
+        }
+
+        /* =========================
+           GENERAL SECTION
+        ========================= */
+
+        section {
+            padding: 90px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title span {
+            display: block;
+            color: #A78BFA;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .section-title h2 {
+            font-size: clamp(32px, 5vw, 48px);
+            line-height: 1.1;
+        }
+
+        .section-title p {
+            max-width: 720px;
+            margin: 16px auto 0;
+            color: #9CA7C2;
+        }
+
+        /* =========================
+           INTRO
+        ========================= */
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .content-card {
+            padding: 38px;
+            border-radius: 23px;
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(13, 20, 48, 0.96),
+                    rgba(10, 16, 36, 0.9)
+                );
+            border: 1px solid rgba(124, 58, 237, 0.2);
+        }
+
+        .content-card h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        .content-card p {
+            color: #AEB7D0;
+            margin-bottom: 15px;
+        }
+
+        .content-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* =========================
+           FEATURES
+        ========================= */
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            padding: 30px;
+            min-height: 225px;
+            border-radius: 20px;
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(13, 20, 48, 0.96),
+                    rgba(10, 16, 36, 0.9)
+                );
+            border: 1px solid rgba(124, 58, 237, 0.19);
+            transition: 0.35s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            background: #ffffff;
+            border-color: #A78BFA;
+            box-shadow: 0 20px 55px rgba(124, 58, 237, 0.18);
+        }
+
+        .feature-card:hover h3 {
+            color: #171B35;
+        }
+
+        .feature-card:hover p {
+            color: #555B72;
+        }
+
+        .feature-icon {
+            width: 52px;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            background: rgba(124, 58, 237, 0.12);
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+        .feature-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #9CA7C2;
+            font-size: 14px;
+        }
+
+        /* =========================
+           AUDIT SECTION
+        ========================= */
+
+        .audit-section {
+            background: #0A1024;
+        }
+
+        .audit-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .audit-item {
+            padding: 28px;
+            border-radius: 20px;
+            background: #060B19;
+            border: 1px solid rgba(124, 58, 237, 0.18);
+            transition: 0.3s ease;
+        }
+
+        .audit-item:hover {
+            border-color: rgba(167, 139, 250, 0.55);
+            transform: translateY(-4px);
+        }
+
+        .audit-item h3 {
+            font-size: 21px;
+            margin-bottom: 8px;
+        }
+
+        .audit-item p {
+            color: #9CA7C2;
+            font-size: 14px;
+        }
+
+        /* =========================
+           BENEFITS
+        ========================= */
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .benefit-list {
+            list-style: none;
+        }
+
+        .benefit-list li {
+            padding: 17px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            color: #C5CCDF;
+        }
+
+        .benefit-list li:last-child {
+            border-bottom: none;
+        }
+
+        .benefit-list li::before {
+            content: "✓";
+            color: #A78BFA;
+            font-weight: 800;
+            margin-right: 12px;
+        }
+
+        .benefit-box {
+            padding: 40px;
+            border-radius: 24px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(124, 58, 237, 0.2),
+                    transparent 45%
+                ),
+                #0D1430;
+            border: 1px solid rgba(167, 139, 250, 0.2);
+        }
+
+        .benefit-box h3 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .benefit-box p {
+            color: #AEB7D0;
+        }
+
+        /* =========================
+           PROCESS
+        ========================= */
+
+        .process {
+            background: #0A1024;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .process-card {
+            position: relative;
+            padding: 30px;
+            border-radius: 20px;
+            background: #060B19;
+            border: 1px solid rgba(124, 58, 237, 0.18);
+        }
+
+        .process-number {
+            color: #A78BFA;
+            font-size: 14px;
+            font-weight: 800;
+        }
+
+        .process-card h3 {
+            margin: 13px 0 9px;
+            font-size: 22px;
+        }
+
+        .process-card p {
+            color: #9CA7C2;
+            font-size: 14px;
+        }
+
+        /* =========================
+           LAHORE SECTION
+        ========================= */
+
+        .lahore-box {
+            text-align: center;
+            padding: 70px 35px;
+            border-radius: 28px;
+            background:
+                radial-gradient(
+                    circle at center,
+                    rgba(124, 58, 237, 0.18),
+                    transparent 55%
+                ),
+                #0D1430;
+            border: 1px solid rgba(167, 139, 250, 0.2);
+        }
+
+        .lahore-box h2 {
+            font-size: clamp(32px, 5vw, 45px);
+            margin-bottom: 18px;
+        }
+
+        .lahore-box p {
+            max-width: 780px;
+            margin: auto;
+            color: #AEB7D0;
+        }
+
+        /* =========================
+           FAQ
+        ========================= */
+
+        .faq-container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .faq-item {
+            margin-bottom: 14px;
+            border-radius: 17px;
+            background: #0A1024;
+            border: 1px solid rgba(124, 58, 237, 0.18);
+            overflow: hidden;
+        }
+
+        .faq-item summary {
+            padding: 21px 24px;
+            cursor: pointer;
+            list-style: none;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-item summary::after {
+            content: "+";
+            float: right;
+            color: #A78BFA;
+            font-size: 22px;
+        }
+
+        .faq-item[open] summary::after {
+            content: "−";
+        }
+
+        .faq-answer {
+            padding: 0 24px 22px;
+            color: #9CA7C2;
+            font-size: 14px;
+        }
+
+        /* =========================
+           CTA
+        ========================= */
+
+        .cta {
+            text-align: center;
+        }
+
+        .cta-box {
+            padding: 75px 30px;
+            border-radius: 28px;
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(124, 58, 237, 0.18),
+                    rgba(79, 140, 255, 0.12)
+                );
+            border: 1px solid rgba(167, 139, 250, 0.2);
+        }
+
+        .cta-box h2 {
+            font-size: clamp(34px, 5vw, 48px);
+            margin-bottom: 17px;
+        }
+
+        .cta-box p {
+            max-width: 680px;
+            margin: 0 auto 28px;
+            color: #AEB7D0;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+            padding: 45px 0;
+            border-top: 1px solid rgba(124, 58, 237, 0.15);
+            background: #060B19;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .footer-content p {
+            color: #77819D;
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #929CB6;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            color: #A78BFA;
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
+
+        @media (max-width: 1000px) {
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .seo-visual {
+                max-width: 650px;
+                margin: auto;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media (max-width: 800px) {
+
+            .menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 75px;
+                left: 0;
+                width: 100%;
+                padding: 25px;
+                background: #0A1024;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                border-bottom: 1px solid rgba(124, 58, 237, 0.2);
+            }
+
+            .nav-links.show {
+                display: flex;
+            }
+
+            .intro-grid,
+            .audit-grid,
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .hero {
+                padding: 75px 0;
+            }
+
+            .hero h1 {
+                letter-spacing: -1.5px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .primary-btn,
+            .secondary-btn {
+                text-align: center;
+            }
+
+            .features-grid,
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .content-card,
+            .feature-card,
+            .audit-item,
+            .benefit-box {
+                padding: 25px;
+            }
+
+            .metrics {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                justify-content: center;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<nav>
+
+    <div class="container nav-container">
+
+        <a href="../index.html" class="logo">
+            Mahboob<span>Sultan</span>
+        </a>
+
+        <div class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="nav-links" id="navLinks">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../about.html">
+                About
+            </a>
+
+            <a href="../services.html" class="active">
+                Services
+            </a>
+
+            <a href="../blog.html">
+                Blog
+            </a>
+
+            <a href="../contact.html">
+                Contact
+            </a>
+
+            <a href="../contact.html" class="nav-btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<header class="hero">
+
+    <div class="container hero-grid">
+
+        <div>
+
+            <div class="badge">
+                Technical SEO Services in Lahore, Pakistan
+            </div>
+
+            <h1>
+                Technical SEO Services
+                <span class="gradient-text">
+                    That Build a Stronger Website.
+                </span>
+            </h1>
+
+            <p class="hero-text">
+                Improve your website's technical foundation with
+                practical Technical SEO focused on crawlability,
+                indexing, site structure, performance, mobile
+                usability and search engine accessibility.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="../contact.html" class="primary-btn">
+                    Get Started
+                </a>
+
+                <a href="#technical-seo" class="secondary-btn">
+                    Explore Services
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEO VISUAL -->
+
+        <div class="seo-visual">
+
+            <div class="visual-top">
+
+                <div class="visual-title">
+                    Technical SEO Overview
+                </div>
+
+                <div class="status">
+                    SEO Health
+                </div>
+
+            </div>
+
+
+            <div class="score-box">
+
+                <div class="score">
+                    SEO
+                </div>
+
+                <div class="score-text">
+
+                    <h3>Technical Health</h3>
+
+                    <p>
+                        Website foundation & performance
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="metrics">
+
+                <div class="metric">
+
+                    <strong>Crawlability</strong>
+
+                    <span>
+                        Search engine access
+                    </span>
+
+                </div>
+
+                <div class="metric">
+
+                    <strong>Indexing</strong>
+
+                    <span>
+                        Page discoverability
+                    </span>
+
+                </div>
+
+                <div class="metric">
+
+                    <strong>Performance</strong>
+
+                    <span>
+                        Speed & experience
+                    </span>
+
+                </div>
+
+                <div class="metric">
+
+                    <strong>Mobile</strong>
+
+                    <span>
+                        Responsive usability
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart">
+
+                <div class="chart-line"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     INTRO
+========================= -->
+
+<section id="technical-seo">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>Technical SEO Lahore</span>
+
+            <h2>What Is Technical SEO?</h2>
+
+            <p>
+                Technical SEO focuses on improving the technical
+                elements of a website so search engines can
+                efficiently crawl, understand and index its pages.
+            </p>
+
+        </div>
+
+
+        <div class="intro-grid">
+
+            <div class="content-card">
+
+                <h3>Build the Right Foundation</h3>
+
+                <p>
+                    A website can have great content, but technical
+                    problems may prevent search engines from properly
+                    discovering or understanding important pages.
+                </p>
+
+                <p>
+                    Technical SEO addresses the underlying structure
+                    and technical health of a website to create a
+                    stronger foundation for organic search visibility.
+                </p>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <h3>Technical SEO for Businesses</h3>
+
+                <p>
+                    I analyze technical issues that may affect
+                    crawling, indexing, performance, mobile usability,
+                    site architecture and the overall search experience.
+                </p>
+
+                <p>
+                    The goal is to identify practical improvements
+                    that make the website easier for both users and
+                    search engines to navigate.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURES
+========================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>What I Optimize</span>
+
+            <h2>Technical SEO Services</h2>
+
+            <p>
+                A detailed technical approach covering the important
+                areas that influence website accessibility and search performance.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔎
+                </div>
+
+                <h3>Crawlability</h3>
+
+                <p>
+                    Review how search engine crawlers access and
+                    navigate your website and identify crawl-related
+                    issues.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📑
+                </div>
+
+                <h3>Indexing</h3>
+
+                <p>
+                    Analyze indexing problems, important page
+                    accessibility and signals that can affect
+                    search engine inclusion.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <h3>Website Performance</h3>
+
+                <p>
+                    Identify opportunities to improve loading
+                    performance, page experience and technical
+                    website efficiency.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    📱
+                </div>
+
+                <h3>Mobile Optimization</h3>
+
+                <p>
+                    Review mobile usability and responsive behavior
+                    to help provide a better experience across devices.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🗂️
+                </div>
+
+                <h3>Site Architecture</h3>
+
+                <p>
+                    Improve website structure, navigation and internal
+                    organization so important pages are easier to discover.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔗
+                </div>
+
+                <h3>Internal Linking</h3>
+
+                <p>
+                    Review internal links and website relationships
+                    to improve navigation and help distribute relevance
+                    across important pages.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🧩
+                </div>
+
+                <h3>Structured Data</h3>
+
+                <p>
+                    Review structured data opportunities and technical
+                    implementation that can help search engines better
+                    understand page information.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔒
+                </div>
+
+                <h3>HTTPS & Security</h3>
+
+                <p>
+                    Review essential website security and HTTPS-related
+                    technical considerations that support a trustworthy
+                    website experience.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🧭
+                </div>
+
+                <h3>XML Sitemap</h3>
+
+                <p>
+                    Review XML sitemap setup and ensure important
+                    website URLs are represented appropriately.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TECHNICAL AUDIT
+========================= -->
+
+<section class="audit-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>Technical Audit</span>
+
+            <h2>What I Check</h2>
+
+            <p>
+                A Technical SEO review can cover multiple areas
+                of your website's technical foundation.
+            </p>
+
+        </div>
+
+
+        <div class="audit-grid">
+
+
+            <div class="audit-item">
+
+                <h3>🔍 Crawl Errors</h3>
+
+                <p>
+                    Identify technical problems that can make
+                    important website pages difficult for search
+                    engines to crawl.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>📄 Indexing Issues</h3>
+
+                <p>
+                    Review pages and technical signals that may
+                    influence whether content can be properly indexed.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>🔗 Broken Links</h3>
+
+                <p>
+                    Find broken internal links and other navigation
+                    issues that can negatively affect usability.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>↪️ Redirects</h3>
+
+                <p>
+                    Review redirect implementation and identify
+                    unnecessary or problematic redirect chains.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>🏗️ Site Structure</h3>
+
+                <p>
+                    Analyze URL structure, navigation and website
+                    hierarchy to improve overall organization.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>⚡ Page Speed</h3>
+
+                <p>
+                    Review technical performance opportunities
+                    that can contribute to a faster website experience.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>📱 Mobile Usability</h3>
+
+                <p>
+                    Check responsive behavior and common mobile
+                    usability problems across important pages.
+                </p>
+
+            </div>
+
+
+            <div class="audit-item">
+
+                <h3>🗺️ XML Sitemap & Robots</h3>
+
+                <p>
+                    Review XML sitemap and robots.txt configuration
+                    for potential technical SEO problems.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     BENEFITS
+========================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="benefits-grid">
+
+
+            <div>
+
+                <div class="section-title" style="text-align:left; margin-bottom:25px;">
+
+                    <span>Why Technical SEO Matters</span>
+
+                    <h2>
+                        A Better Technical Foundation
+                    </h2>
+
+                </div>
+
+
+                <ul class="benefit-list">
+
+                    <li>
+                        Make important pages easier for search engines to discover.
+                    </li>
+
+                    <li>
+                        Identify technical issues affecting website accessibility.
+                    </li>
+
+                    <li>
+                        Improve website structure and navigation.
+                    </li>
+
+                    <li>
+                        Create a better experience for mobile users.
+                    </li>
+
+                    <li>
+                        Find opportunities to improve website performance.
+                    </li>
+
+                    <li>
+                        Support a stronger foundation for ongoing SEO work.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="benefit-box">
+
+                <h3>
+                    SEO Starts With a Strong Foundation.
+                </h3>
+
+                <p>
+                    Technical SEO is not about making random technical
+                    changes. It is about understanding how your website
+                    works, identifying genuine issues and prioritizing
+                    improvements that can support users and organic search.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROCESS
+========================= -->
+
+<section class="process">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>My Process</span>
+
+            <h2>How I Handle Technical SEO</h2>
+
+            <p>
+                A practical process designed to discover problems,
+                prioritize improvements and strengthen your website.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    01 — DISCOVER
+                </div>
+
+                <h3>Website Review</h3>
+
+                <p>
+                    Understand your website, business objectives,
+                    current SEO setup and technical environment.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    02 — ANALYZE
+                </div>
+
+                <h3>Technical Audit</h3>
+
+                <p>
+                    Review crawlability, indexing, performance,
+                    structure, mobile usability and other technical areas.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    03 — OPTIMIZE
+                </div>
+
+                <h3>Fix & Improve</h3>
+
+                <p>
+                    Prioritize technical issues and implement or
+                    recommend practical improvements.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    04 — MONITOR
+                </div>
+
+                <h3>Continuous Improvement</h3>
+
+                <p>
+                    Review changes and identify additional opportunities
+                    as your website and SEO strategy develop.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LAHORE
+========================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="lahore-box">
+
+            <h2>
+                Technical SEO Services in Lahore
+            </h2>
+
+            <p>
+                If you are looking for Technical SEO Services in Lahore,
+                I can help review your website's technical foundation,
+                identify SEO issues and create a practical roadmap for
+                improvement. Technical SEO can be useful for business
+                websites, service websites, blogs and e-commerce stores.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FAQ
+========================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>FAQ</span>
+
+            <h2>Technical SEO Questions</h2>
+
+            <p>
+                Some common questions about Technical SEO Services in Lahore.
+            </p>
+
+        </div>
+
+
+        <div class="faq-container">
+
+
+            <details class="faq-item">
+
+                <summary>
+                    What is Technical SEO?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Technical SEO focuses on the technical aspects
+                    of a website that help search engines crawl,
+                    understand and index its pages effectively.
+
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+                    Why does my website need Technical SEO?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Technical issues can make it harder for search
+                    engines to discover or understand important pages.
+                    A technical SEO review helps identify these issues
+                    and prioritize improvements.
+
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+                    Do you provide Technical SEO audits in Lahore?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Yes. Technical SEO audits can review areas such as
+                    crawlability, indexing, site structure, internal
+                    links, mobile usability, performance, redirects,
+                    XML sitemaps and other technical factors.
+
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+                    Is Technical SEO useful for e-commerce websites?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Yes. E-commerce websites often have many products,
+                    categories, filters and URLs, making technical
+                    structure, crawlability and indexing especially important.
+
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+                    Can Technical SEO improve Google rankings?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Technical SEO can help remove technical barriers
+                    and create a stronger foundation for search visibility.
+                    Rankings depend on many factors, including content,
+                    relevance, competition, authority and user experience.
+
+                </div>
+
+            </details>
+
+
+            <details class="faq-item">
+
+                <summary>
+                    How can I get started?
+                </summary>
+
+                <div class="faq-answer">
+
+                    Contact me through the website and share your
+                    website details and goals. We can then determine
+                    what type of Technical SEO work would be appropriate
+                    for your website.
+
+                </div>
+
+            </details>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <h2>
+                Need a Technical SEO Audit?
+            </h2>
+
+            <p>
+                Let's identify the technical issues holding your website
+                back and create a clear plan for improving its SEO foundation.
+            </p>
+
+            <a href="../contact.html" class="primary-btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <p>
+            © 2026 Mahboob Sultan. All Rights Reserved.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../about.html">
+                About
+            </a>
+
+            <a href="../services.html">
+                Services
+            </a>
+
+            <a href="../blog.html">
+                Blog
+            </a>
+
+            <a href="../contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     MOBILE MENU
+========================= -->
+
+<script>
+
+function toggleMenu() {
+
+    const navLinks = document.getElementById("navLinks");
+
+    navLinks.classList.toggle("show");
+
+}
+
+</script>
+
+
+</body>
+</html>
